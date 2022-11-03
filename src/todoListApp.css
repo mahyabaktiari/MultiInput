@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo-list-app-container{
+  height: 100vh;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f7f7f7;
+  position: relative;
+}
+input{
+  width: 400px;
+  border: none;
+  height: 45px;
+  margin: 30px 0 ;
+  border-bottom: 1px solid gray;
+  background-color: #f7f7f7;
+  font-size: 20px;
+color: gray;
+padding: 10px;
+}
+
+.todo-form{
+  position: fixed;
+  bottom: 0;
+  width: 600px;
+}
+.todo-form .buttons-container{
+  background-color:#c0dff9;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.todo-form .buttons-container button{
+  height: 40px;
+  border: none;
+  width: 80px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.todo-form .buttons-container .save-btn{
+  color: #0050ff;
+  margin-left: 20px;
+}
+.todo-form input{
+  margin: 45px 20px;
+}
+.todolist-container{
+  padding: 20px;
+  height: 75vh;
+  overflow-y: scroll;
+}
+.todolist-container .remove-btn{
+  border: none;
+  margin-left: 30px;
+  font-size: 24px;
+  color: red;
+  background: transparent;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
